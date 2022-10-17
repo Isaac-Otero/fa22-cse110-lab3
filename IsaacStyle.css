@@ -1,0 +1,147 @@
+/* Body background color for the file */
+body{
+    background-color: #a254004a;
+}
+/* Body-for the order lists to be displayed block */
+.body,  
+    ol{
+        display: block;
+    }
+/*set the color for the class beginning */
+.Beginning {
+    background-color: rgba(236, 237, 215, 0.781);
+    /* Fontsize absolute */
+    font-size: 27.3px;
+    /* Display set to grid */
+    display: grid;
+}
+.Beginning,
+    ol{
+        /*order list margins */
+       margin: 1cm,1cm,1cm,1cm;
+    }
+h1{
+    background-color: rgba(137, 43, 226, 0.36);
+    /* Fontsize absolute */
+    font-size: 50px;
+    /*set teh max and min width */
+    max-width: fit-content;
+    min-width: fit-content;
+    position: sticky;
+}
+h2{
+    background-color: rgb(124, 78, 22);
+    /* Fontsize absolute */
+    font-size: 19px;
+    height: 2cm;
+    width: 2cm;
+    padding-left: 20cm;
+    position: static;
+}
+.h2,
+    form{
+        /* to rap around */
+        display: inline-block;
+        /* to move more to the middle */
+        padding-left: 13cm;
+    }
+h3{
+    background-color: rgb(13, 255, 0);
+    /* Fontsize absolute */
+    font-size: 29px;
+}
+.Attendance-list{
+    background-color: coral;
+    /* Fontsize relative */
+    font-size: 2em;
+}
+.Attendance-list,
+    ul{
+    /* set up the margins and style of the list */
+    border: 3px solid royalblue;
+    margin-left: 10cm;
+    margin-bottom: 1cm; 
+    margin-top: 1cm;
+    margin-right: 10cm;
+    display: grid;
+}
+.Agenda{
+    background-color: lightslategrey;
+    /* Fontsize relative */
+    font-size: 5ex;
+    color:rgb(133, 70, 85);
+    text-decoration: underline;
+    text-align: center;
+    display:grid;
+    
+}
+span{
+    background-color: aquamarine;
+    /* Fontsize relative */ 
+    font-size: 5vw;
+}
+.Screenshots-and-plans{
+ 
+    padding: 1cm,1cm,1cm,1cm;
+}
+.Screenshots-and-plans,
+    img{
+        /* ordered around the images to set set up styles */
+        border-style:groove;
+        border-color:darkslategray;
+        border-width: 3in;
+        border-radius: 2in;
+        padding-left: 0.5cm;
+        padding-right: 0.5cm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        text-align: center;
+        font-size: 1in;
+    }
+button:hover{
+    color: rgb(93, 90, 9);
+}
+textarea:active{
+    color:rgb(155, 122, 122)
+}
+footer{
+    display: flex;
+}
+fieldset {
+    display: flex;;
+}
+select{
+    display: flex;
+    padding-left: 1in;
+    padding-right: 1in;
+}
+/*set up the entire font for the media and min-width:is 1080px*/
+@media screen and (min-width: 1080px){
+    body{
+        font-family:"Comic Sans MS",sans-serif,cursive;
+    }
+} 
+p{
+    color:blue;
+}
+#Favorite-ff{
+    color:rebeccapurple;
+}
+*{
+    text-align: center;
+}
+[class^="navigation"]{
+    background-color: rgb(255, 192, 4);
+}
+div>p{
+    font-style: italic;
+}
+div ol{
+    font-style:italic;;
+}
+div+p{
+    background-color: darkolivegreen;
+}
+div ~ p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
