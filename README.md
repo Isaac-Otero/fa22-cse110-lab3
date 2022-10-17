@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://isaac-otero.github.io/My_Lab2_Starter/
+Lab 3 Page https://isaac-otero.github.io/fa22-cse110-lab3/
